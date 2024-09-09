@@ -1,0 +1,1288 @@
+<!DOCTYPE html> <html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/favicon.ico">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=9133eb49-3a97-4b2d-90be-6b80a97a5036" type="text/javascript"></script>
+    <title>Личный кабинет</title>
+</head>
+
+
+<body class="page">
+    <div class="wrapper">
+        <a href="" class="banner">
+    <picture>
+        <source srcset="img/banner.webp" type="image/webp">
+        <img width="1440" height="250" src="img/banner.jpg" alt="">
+    </picture>
+</a>
+
+        <div class="banner2">
+    <div class="text14 light-weight-text">
+        Спецпредложение: купи авто по цене и получи дубликаты госномеров в подарок!
+    </div>
+</div>
+
+        <header class="header _authorized">
+            <div class="header-top">
+    <div class="container">
+        <div class="header-top__inner">
+            <a href="#" class="header__logo">
+                <img width="260" height="60" src="img/logo.png" alt="">
+<!--                <img width="260" height="60" src="img/logoza-ru-vector.svg" alt="">-->
+            </a>
+
+            <div class="header-search">
+                <fieldset class="fg fg-linear">
+                    <input type="text" placeholder="Найти на сайте">
+                    <span class="fg-linear__border"></span>
+                </fieldset>
+                <button class="header-search__btn">
+                    <img width="24" height="24" src="img/search.svg" alt="">
+                </button>
+
+            </div>
+
+            <div class="header__buttons">
+                <button class="header__mob-btn">
+                    <img width="44" height="44" src="img/email_Mob.svg" alt="">
+                </button>
+                <button class="_show-search header__mob-btn">
+                    <img width="44" height="44" src="img/search_Mob.svg" alt="">
+                </button>
+                <button class="_show-menu header__mob-btn">
+                    <img width="44" height="44" src="img/menu_Mob.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="menu">
+    <div class="container">
+        <button class="menu__close">
+            <img width="24" height="24" src="img/close.svg" alt="">
+        </button>
+        <div class="menu__inner">
+            <ul class="nav">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <svg width="24" height="24">
+                                <use xlink:href="img/sprite.svg#mainIcon1"></use>
+                            </svg>
+                        </span>
+                        <span>Главная</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <svg class="fill-svg" width="24" height="24">
+                                <use xlink:href="img/sprite.svg#mainIcon2"></use>
+                            </svg>
+                        </span>
+                        <span>Эксперты</span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <div class="nav__item-show">
+                        <span class="nav__icon">
+                            <svg class="fill-svg" width="24" height="24">
+                                <use xlink:href="img/sprite.svg#mainIcon3"></use>
+                            </svg>
+                        </span>
+                        <span>Рубрики</span>
+                        <svg class="nav__arrow" width="14" height="8">
+                            <use xlink:href="img/sprite.svg#arrowBottom"></use>
+                        </svg>
+                    </div>
+                    <div class="nav__item-hidden">
+                        <div class="nav__sublinks">
+                            <a href="#" class="nav__sublink">
+                                Выбор и покупка авто
+                            </a>
+                            <a href="#" class="nav__sublink">
+                                Ремонт и обслуживание
+                            </a>
+                            <a href="#" class="nav__sublink">
+                                Справочная информация
+                            </a>
+                            <a href="#" class="nav__sublink">
+                                Автопутешествия и маршруты
+                            </a>
+                            <a href="#" class="nav__sublink">
+                                Работа на авто
+                            </a>
+                            <a href="#" class="nav__sublink">
+                                Права и вождение
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <span class="nav__icon">
+                            <svg class="fill-svg" width="24" height="24">
+                                <use xlink:href="img/sprite.svg#mainIcon4"></use>
+                            </svg>
+                        </span>
+                        <span>О проекте</span>
+                    </a>
+                </li>
+            </ul>
+            
+            
+            <div class="header-auth">
+                <a href="#" class="header-auth__btn m-btn m-btn-black m-btn-icon">
+                    <svg width="24" height="24">
+                        <use xlink:href="img/sprite.svg#userIcon"></use>
+                    </svg>
+                    <span class="header-auth__title">
+                        Профиль
+                    </span>
+                </a>
+                <a href="#" class="header-auth__btn m-btn m-btn-black m-btn-icon">
+                    <svg width="24" height="24">
+                        <use xlink:href="img/sprite.svg#noteIcon"></use>
+                    </svg>
+                    <span class="header-auth__notification">
+                        <span class="text9">
+                            13
+                        </span>
+                    </span>
+                </a>
+            </div>
+            
+            <button type="button" class="menu__mail">
+                <img src="img/email.svg" alt="">
+                <span class="text16 medium-weight-text">
+                    Напишите нам
+                </span>
+            </button>
+
+            <form action="" class="menu-form">
+    <div class="menu-form__title display3 semi-bold-text accent2-text">
+        Ищите эксперта?
+    </div>
+    <div class="menu-form__fields">
+        <fieldset class="fg m-select">
+    
+    <select>
+        <option selected disabled hidden>
+            Выберите марку авто
+        </option>
+        <option>
+            марка 1
+        </option>
+        
+        <option>
+            марка 2
+        </option>
+        
+    </select>
+</fieldset>
+
+        <fieldset class="fg m-select">
+    
+    <select>
+        <option selected disabled hidden>
+            Выберите рубрику
+        </option>
+        <option>
+            рубрика 1
+        </option>
+        
+        <option>
+            рубрика 2
+        </option>
+        
+    </select>
+</fieldset>
+
+    </div>
+    <button class="menu-form__btn m-btn m-btn50 linear-btn">
+        <span>Найти</span>
+    </button>
+</form>
+
+        </div>
+    </div>
+</div>
+
+        </header>
+        <main class="content">
+
+            <section class="blog">
+                <div class="container">
+                    <div class="breadcrumbs">
+                        <a href="#" class="breadcrumbs__item">Главная</a>
+                    </div>
+
+                    <div class="blog__inner">
+                        <div class="blog__sidebar blog__sidebar--mob-hide">
+                            
+<form action="" class="menu-form">
+    <div class="menu-form__title display3 semi-bold-text accent2-text">
+        Ищите эксперта?
+    </div>
+    <div class="menu-form__fields">
+        <fieldset class="fg m-select">
+    
+    <select>
+        <option selected disabled hidden>
+            Выберите марку авто
+        </option>
+        <option>
+            марка 1
+        </option>
+        
+        <option>
+            марка 2
+        </option>
+        
+    </select>
+</fieldset>
+
+        <fieldset class="fg m-select">
+    
+    <select>
+        <option selected disabled hidden>
+            Выберите рубрику
+        </option>
+        <option>
+            рубрика 1
+        </option>
+        
+        <option>
+            рубрика 2
+        </option>
+        
+    </select>
+</fieldset>
+
+    </div>
+    <button class="menu-form__btn m-btn m-btn50 linear-btn">
+        <span>Найти</span>
+    </button>
+</form>
+
+<a href="" class="blog-banner ">
+    <picture>
+        <source srcset="img/banner3.webp" type="image/webp">
+        <img width="240" height="400" src="img/banner3.jpg" alt="">
+    </picture>
+</a>
+
+
+<div class="experts">
+    <h3 class="experts__title display3 semi-bold-text">
+        Эксперты по <br>
+        Mercedes-Benz
+    </h3>
+    <div class="experts__items">
+        <div class="expert-card">
+    <a href="#" class="expert-card__title text18 semi-bold-text accent2-text">
+        Константин Константинопольский
+    </a>
+    <div class="expert-card__img">
+        <picture>
+            <source srcset="img/expert.webp" type="image/webp">
+            <img width="285" height="285" src="img/expert.jpg" alt="">
+        </picture>
+    </div>
+    <div class="expert-card__items">
+        <div class="expert-card__item">
+            <span class="expert-card__item-title">Опыт:</span>
+            <span class="expert-card__item-desc">Опытный эксперт</span>
+        </div>
+        <div class="expert-card__item">
+            <span class="expert-card__item-title">Специализация:</span>
+            <span class="expert-card__item-desc">Автопутешествия</span>
+        </div>
+        <div class="expert-card__item">
+            <span class="expert-card__item-title">Автобренды:</span>
+            <span class="expert-card__item-desc">KIA, Renault, Toyota</span>
+        </div>
+        <div class="expert-card__item">
+            <span class="expert-card__item-title">Написано статей:</span>
+            <a href="#" class="expert-card__item-desc accent-link2">16 статей</a>
+        </div>
+    </div>
+    <a href="#" class="expert-card__btn m-btn m-btn38 linear-btn">
+        <span>Перейти</span>
+    </a>
+</div>
+
+        <div class="expert-card">
+    <a href="#" class="expert-card__title text18 semi-bold-text accent2-text">
+        Иванов Иван
+    </a>
+    <div class="expert-card__img">
+        <picture>
+            <source srcset="img/expert2.webp" type="image/webp">
+            <img width="285" height="285" src="img/expert2.jpg" alt="">
+        </picture>
+    </div>
+    <div class="expert-card__items">
+        <div class="expert-card__item">
+            <span class="expert-card__item-title">Опыт:</span>
+            <span class="expert-card__item-desc">Опытный эксперт</span>
+        </div>
+        <div class="expert-card__item">
+            <span class="expert-card__item-title">Специализация:</span>
+            <span class="expert-card__item-desc">Автопутешествия</span>
+        </div>
+        <div class="expert-card__item">
+            <span class="expert-card__item-title">Автобренды:</span>
+            <span class="expert-card__item-desc">KIA, Renault, Toyota</span>
+        </div>
+        <div class="expert-card__item">
+            <span class="expert-card__item-title">Написано статей:</span>
+            <a href="#" class="expert-card__item-desc accent-link2">16 статей</a>
+        </div>
+    </div>
+    <a href="#" class="expert-card__btn m-btn m-btn38 linear-btn">
+        <span>Перейти</span>
+    </a>
+</div>
+
+    </div>
+</div>
+
+
+                        </div>
+                        <div class="blog__content tabs-parent">
+                            <div class="profile">
+    <div class="profile__wrap">
+        <div class="avatar">
+            <picture>
+                <source srcset="img/avatar5.webp" type="image/webp">
+                <img width="120" height="120" src="img/avatar5.jpg" alt="">
+            </picture>
+        </div>
+        <div class="profile__info">
+            <h1 class="profile__name">
+                                            <span class="display1 accent2-text bold-text">
+                                                Иван Колодяжный
+                                            </span>
+            </h1>
+            <div class="comment-card__status">
+                <img width="16" height="16" src="img/status.svg" alt="">
+                <span class="text11 font2">
+                                                Новичок
+                                            </span>
+            </div>
+        </div>
+    </div>
+    <div class="profile__nav">
+        <a href="#" class="profile__logout text14 font2">
+            Выйти
+        </a>
+    </div>
+</div>
+
+
+                            <div class="article-width">
+                                <div class="profile__tabs tabs">
+    <div class="_tab _active" data-tab="comments">
+        <span>0 КОММЕНТАРИЕВ</span>
+    </div>
+    <div class="_tab" data-tab="favourite">
+        <span>8 ЗАКЛАДОК</span>
+    </div>
+    <div class="_tab" data-tab="subscribe">
+        <span>2 ПОДПИСКИ</span>
+    </div>
+</div>
+
+
+
+                                <div class="profile__content">
+                                    <div class="_tab-content _active _tab-comments">
+                                        <div class="profile-comments">
+                                            <div class="comments__items">
+                                                <div class="comment-group">
+                                                    <div class="comment-card">
+    <div class="avatar">
+        <picture>
+            <source srcset="img/avatar.webp" type="image/webp">
+            <img width="48" height="48" src="img/avatar.jpg" alt="">
+        </picture>
+    </div>
+    <div class="comment-card__content">
+        <div class="comment-card__top">
+            <div class="comment-card__name">
+                <span class="text14 semi-bold-text">
+                    Константин Константинопольский
+                </span>
+            </div>
+            <div class="comment-card__date">
+                <span class="text11 font2 grey-text">
+                    23.12, 17:36
+                </span>
+            </div>
+            <div class="comment-card__reactions">
+                <button class="reactions__btn _like">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        13
+                    </span>
+                </button>
+                <button class="reactions__btn _unlike">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction2"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        8
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="comment-card__title">
+            <div class="text17 font2 accent2-text">
+                Цена и комплектация нового Рено Каптюр 2020 года
+            </div>
+        </div>
+        <div class="comment-card__text">
+            <div class="text14">
+                <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось иметь ласковых хозяев и тёплый кров. Один из проверенных способов это сделать - помочь приюту для животных Домашний. У этих ребят живёт более 1500 четвероногих, и благодаря их труду ежегодно сотни питомцев находят свой новый дом</p>
+                
+            </div>
+        </div>
+        
+        <button class="comment-card__toggle font2 accent2-text">
+            <span class="_view1 text11">
+                Развернуть
+            </span>
+            <span class="_view2 text11">
+                Свернуть
+            </span>
+            <img src="img/arrow-down-blue.svg" alt="">
+        </button>
+        
+        <div class="comment-card__new">
+            <button class="comment-card__new-text">
+                
+                <span class="text14">
+                    3 новых ответа
+                </span>
+            </button>
+        </div>
+        <div class="fg comment-field comment-card__field">
+    <textarea placeholder="Оставьте комментарий тут"></textarea>
+    <div class="comment-field__nav">
+        <div class="comment-field__picture">
+            <input type="file">
+            <svg width="24" height="24">
+                <use xlink:href="img/sprite.svg#picture"></use>
+            </svg>
+        </div>
+        <button class="comment-field__btn m-btn m-btn-accent2 m-btn34">
+            <span>Отправить</span>
+        </button>
+    </div>
+    <div class="fg__error-text">
+        <span class="text14 accent-text font2">
+            Войдите, чтобы оставить комментарий
+        </span>
+    </div>
+</div>
+
+    </div>
+</div>
+
+                                                    <div class="comment-subgroup">
+                                                        <div class="comment-card">
+    <div class="avatar">
+        <picture>
+            <source srcset="img/avatar.webp" type="image/webp">
+            <img width="48" height="48" src="img/avatar.jpg" alt="">
+        </picture>
+    </div>
+    <div class="comment-card__content">
+        <div class="comment-card__top">
+            <div class="comment-card__name">
+                <span class="text14 semi-bold-text">
+                    Константин Константинопольский
+                </span>
+            </div>
+            <div class="comment-card__date">
+                <span class="text11 font2 grey-text">
+                    23.12, 17:36
+                </span>
+            </div>
+            <div class="comment-card__reactions">
+                <button class="reactions__btn _like">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        13
+                    </span>
+                </button>
+                <button class="reactions__btn _unlike">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction2"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        8
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="comment-card__title">
+            <div class="text17 font2 accent2-text">
+                Цена и комплектация нового Рено Каптюр 2020 года
+            </div>
+        </div>
+        <div class="comment-card__text">
+            <div class="text14">
+                <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось иметь ласковых хозяев и тёплый кров. Один из проверенных способов это сделать - помочь приюту для животных Домашний. У этих ребят живёт более 1500 четвероногих, и благодаря их труду ежегодно сотни питомцев находят свой новый дом</p>
+                
+            </div>
+        </div>
+        
+        
+        <div class="fg comment-field comment-card__field">
+    <textarea placeholder="Оставьте комментарий тут"></textarea>
+    <div class="comment-field__nav">
+        <div class="comment-field__picture">
+            <input type="file">
+            <svg width="24" height="24">
+                <use xlink:href="img/sprite.svg#picture"></use>
+            </svg>
+        </div>
+        <button class="comment-field__btn m-btn m-btn-accent2 m-btn34">
+            <span>Отправить</span>
+        </button>
+    </div>
+    <div class="fg__error-text">
+        <span class="text14 accent-text font2">
+            Войдите, чтобы оставить комментарий
+        </span>
+    </div>
+</div>
+
+    </div>
+</div>
+
+                                                        <div class="comment-card">
+    <div class="avatar">
+        <picture>
+            <source srcset="img/avatar.webp" type="image/webp">
+            <img width="48" height="48" src="img/avatar.jpg" alt="">
+        </picture>
+    </div>
+    <div class="comment-card__content">
+        <div class="comment-card__top">
+            <div class="comment-card__name">
+                <span class="text14 semi-bold-text">
+                    Константин Константинопольский
+                </span>
+            </div>
+            <div class="comment-card__date">
+                <span class="text11 font2 grey-text">
+                    23.12, 17:36
+                </span>
+            </div>
+            <div class="comment-card__reactions">
+                <button class="reactions__btn _like">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        13
+                    </span>
+                </button>
+                <button class="reactions__btn _unlike">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction2"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        8
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="comment-card__title">
+            <div class="text17 font2 accent2-text">
+                Цена и комплектация нового Рено Каптюр 2020 года
+            </div>
+        </div>
+        <div class="comment-card__text">
+            <div class="text14">
+                <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось иметь ласковых хозяев и тёплый кров. Один из проверенных способов это сделать - помочь приюту для животных Домашний. У этих ребят живёт более 1500 четвероногих, и благодаря их труду ежегодно сотни питомцев находят свой новый дом</p>
+                
+            </div>
+        </div>
+        
+        
+        <div class="fg comment-field comment-card__field">
+    <textarea placeholder="Оставьте комментарий тут"></textarea>
+    <div class="comment-field__nav">
+        <div class="comment-field__picture">
+            <input type="file">
+            <svg width="24" height="24">
+                <use xlink:href="img/sprite.svg#picture"></use>
+            </svg>
+        </div>
+        <button class="comment-field__btn m-btn m-btn-accent2 m-btn34">
+            <span>Отправить</span>
+        </button>
+    </div>
+    <div class="fg__error-text">
+        <span class="text14 accent-text font2">
+            Войдите, чтобы оставить комментарий
+        </span>
+    </div>
+</div>
+
+    </div>
+</div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="comment-group">
+                                                    <div class="comment-card">
+    <div class="avatar">
+        <picture>
+            <source srcset="img/avatar.webp" type="image/webp">
+            <img width="48" height="48" src="img/avatar.jpg" alt="">
+        </picture>
+    </div>
+    <div class="comment-card__content">
+        <div class="comment-card__top">
+            <div class="comment-card__name">
+                <span class="text14 semi-bold-text">
+                    Константин Константинопольский
+                </span>
+            </div>
+            <div class="comment-card__date">
+                <span class="text11 font2 grey-text">
+                    23.12, 17:36
+                </span>
+            </div>
+            <div class="comment-card__reactions">
+                <button class="reactions__btn _like">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        13
+                    </span>
+                </button>
+                <button class="reactions__btn _unlike">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction2"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        8
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="comment-card__title">
+            <div class="text17 font2 accent2-text">
+                Цена и комплектация нового Рено Каптюр 2020 года
+            </div>
+        </div>
+        <div class="comment-card__text">
+            <div class="text14">
+                <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось иметь ласковых хозяев и тёплый кров. Один из проверенных способов это сделать - помочь приюту для животных Домашний. У этих ребят живёт более 1500 четвероногих, и благодаря их труду ежегодно сотни питомцев находят свой новый дом</p>
+                
+            </div>
+        </div>
+        
+        <button class="comment-card__toggle font2 accent2-text">
+            <span class="_view1 text11">
+                Развернуть
+            </span>
+            <span class="_view2 text11">
+                Свернуть
+            </span>
+            <img src="img/arrow-down-blue.svg" alt="">
+        </button>
+        
+        <div class="comment-card__new">
+            <button class="comment-card__new-text">
+                
+                <img src="img/linkArrow.svg" alt="">
+                
+                <span class="text14">
+                    1 новый ответ
+                </span>
+            </button>
+        </div>
+        <div class="fg comment-field comment-card__field">
+    <textarea placeholder="Оставьте комментарий тут"></textarea>
+    <div class="comment-field__nav">
+        <div class="comment-field__picture">
+            <input type="file">
+            <svg width="24" height="24">
+                <use xlink:href="img/sprite.svg#picture"></use>
+            </svg>
+        </div>
+        <button class="comment-field__btn m-btn m-btn-accent2 m-btn34">
+            <span>Отправить</span>
+        </button>
+    </div>
+    <div class="fg__error-text">
+        <span class="text14 accent-text font2">
+            Войдите, чтобы оставить комментарий
+        </span>
+    </div>
+</div>
+
+    </div>
+</div>
+
+                                                    <div class="comment-subgroup">
+                                                        <div class="comment-card">
+    <div class="avatar">
+        <picture>
+            <source srcset="img/avatar.webp" type="image/webp">
+            <img width="48" height="48" src="img/avatar.jpg" alt="">
+        </picture>
+    </div>
+    <div class="comment-card__content">
+        <div class="comment-card__top">
+            <div class="comment-card__name">
+                <span class="text14 semi-bold-text">
+                    Константин Константинопольский
+                </span>
+            </div>
+            <div class="comment-card__date">
+                <span class="text11 font2 grey-text">
+                    23.12, 17:36
+                </span>
+            </div>
+            <div class="comment-card__reactions">
+                <button class="reactions__btn _like">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        13
+                    </span>
+                </button>
+                <button class="reactions__btn _unlike">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction2"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        8
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="comment-card__title">
+            <div class="text17 font2 accent2-text">
+                Цена и комплектация нового Рено Каптюр 2020 года
+            </div>
+        </div>
+        <div class="comment-card__text">
+            <div class="text14">
+                <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось иметь ласковых хозяев и тёплый кров. Один из проверенных способов это сделать - помочь приюту для животных Домашний. У этих ребят живёт более 1500 четвероногих, и благодаря их труду ежегодно сотни питомцев находят свой новый дом</p>
+                
+            </div>
+        </div>
+        
+        
+        <div class="fg comment-field comment-card__field">
+    <textarea placeholder="Оставьте комментарий тут"></textarea>
+    <div class="comment-field__nav">
+        <div class="comment-field__picture">
+            <input type="file">
+            <svg width="24" height="24">
+                <use xlink:href="img/sprite.svg#picture"></use>
+            </svg>
+        </div>
+        <button class="comment-field__btn m-btn m-btn-accent2 m-btn34">
+            <span>Отправить</span>
+        </button>
+    </div>
+    <div class="fg__error-text">
+        <span class="text14 accent-text font2">
+            Войдите, чтобы оставить комментарий
+        </span>
+    </div>
+</div>
+
+    </div>
+</div>
+
+                                                        <div class="comment-card">
+    <div class="avatar">
+        <picture>
+            <source srcset="img/avatar.webp" type="image/webp">
+            <img width="48" height="48" src="img/avatar.jpg" alt="">
+        </picture>
+    </div>
+    <div class="comment-card__content">
+        <div class="comment-card__top">
+            <div class="comment-card__name">
+                <span class="text14 semi-bold-text">
+                    Константин Константинопольский
+                </span>
+            </div>
+            <div class="comment-card__date">
+                <span class="text11 font2 grey-text">
+                    23.12, 17:36
+                </span>
+            </div>
+            <div class="comment-card__reactions">
+                <button class="reactions__btn _like">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        13
+                    </span>
+                </button>
+                <button class="reactions__btn _unlike">
+                    <svg width="32" height="32">
+                        <use xlink:href="img/sprite.svg#reaction2"></use>
+                    </svg>
+                    <span class="text14 reactions__btn-text grey-text">
+                        8
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="comment-card__title">
+            <div class="text17 font2 accent2-text">
+                Цена и комплектация нового Рено Каптюр 2020 года
+            </div>
+        </div>
+        <div class="comment-card__text">
+            <div class="text14">
+                <p>Мы любим животных и стараемся поддерживать тех из них, кому не посчастливилось иметь ласковых хозяев и тёплый кров. Один из проверенных способов это сделать - помочь приюту для животных Домашний. У этих ребят живёт более 1500 четвероногих, и благодаря их труду ежегодно сотни питомцев находят свой новый дом</p>
+                
+            </div>
+        </div>
+        
+        
+        <div class="fg comment-field comment-card__field">
+    <textarea placeholder="Оставьте комментарий тут"></textarea>
+    <div class="comment-field__nav">
+        <div class="comment-field__picture">
+            <input type="file">
+            <svg width="24" height="24">
+                <use xlink:href="img/sprite.svg#picture"></use>
+            </svg>
+        </div>
+        <button class="comment-field__btn m-btn m-btn-accent2 m-btn34">
+            <span>Отправить</span>
+        </button>
+    </div>
+    <div class="fg__error-text">
+        <span class="text14 accent-text font2">
+            Войдите, чтобы оставить комментарий
+        </span>
+    </div>
+</div>
+
+    </div>
+</div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="profile-comments__nav">
+                                                <a href="#" class="profile-comments__link accent-link">
+                                                    Посмотреть на странице статьи
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="_tab-content _tab-favourite">
+                                        <div class="favourite">
+                                            <div class="favourite__items">
+                                                <a href="" class="favourite-card">
+    <div class="favourite-card__left">
+        <div class="favourite-card__top">
+            <div class="avatar">
+                <picture>
+                    <source srcset="img/avatar5.webp" type="image/webp">
+                    <img width="120" height="120" src="img/avatar5.jpg" alt="">
+                </picture>
+            </div>
+            <div class="favourite-card__info">
+                <div class="favourite-card__name">
+                    <span class="text14 semi-bold-text">
+                        Константин Константинопольский
+                    </span>
+                </div>
+                <div class="favourite-card__info-bottom">
+                    <div class="favourite-card__date">
+                        <span class="text11 grey-text font2">
+                            23.12, 17:36
+                        </span>
+                    </div>
+                    <div class="favourite-card__info-items">
+                        <div class="favourite-card__info-item">
+                            <img width="20" height="20" src="img/view.svg" alt="">
+                            <span class="text11 grey-text">
+                                23
+                            </span>
+                        </div>
+                        <div class="favourite-card__info-item">
+                            <img width="20" height="20" src="img/comment.svg" alt="">
+                            <span class="text11 grey-text">
+                                16
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="favourite-card__img-wrap">
+            <div class="favourite-card__img">
+                <picture>
+                    <source srcset="img/news.webp" type="image/webp">
+                    <img width="180" height="135" src="img/news.jpg" alt="">
+                </picture>
+            </div>
+        </div>
+        <div class="favourite-card__title">
+            <span class="display3 semi-bold-text accent2-text">
+                Цена и комплектация нового Рено Каптюр 2020 года
+            </span>
+        </div>
+        <div class="reactions">
+            <div class="reactions__btn _like">
+                <svg width="20" height="20">
+                    <use xlink:href="img/sprite.svg#reaction"></use>
+                </svg>
+                <span class="reactions__btn-text text11 green-text">
+                    13
+                </span>
+            </div>
+            <div class="reactions__btn _unlike">
+                <svg width="20" height="20">
+                    <use xlink:href="img/sprite.svg#reaction2"></use>
+                </svg>
+                <span class="reactions__btn-text text11 red-text">
+                    8
+                </span>
+            </div>
+            <div class="reactions__btn _favourite">
+                <svg class="_view1" width="20" height="20">
+                    <use xlink:href="img/sprite.svg#reaction7"></use>
+                </svg>
+                <svg class="_view2" width="20" height="20">
+                    <use xlink:href="img/sprite.svg#reaction7"></use>
+                </svg>
+                <span class="reactions__btn-text text11 grey-text">
+                    8
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="favourite-card__right">
+
+    </div>
+</a>
+
+                                                <a href="" class="favourite-card">
+    <div class="favourite-card__left">
+        <div class="favourite-card__top">
+            <div class="avatar">
+                <picture>
+                    <source srcset="img/avatar5.webp" type="image/webp">
+                    <img width="120" height="120" src="img/avatar5.jpg" alt="">
+                </picture>
+            </div>
+            <div class="favourite-card__info">
+                <div class="favourite-card__name">
+                    <span class="text14 semi-bold-text">
+                        Константин Константинопольский
+                    </span>
+                </div>
+                <div class="favourite-card__info-bottom">
+                    <div class="favourite-card__date">
+                        <span class="text11 grey-text font2">
+                            23.12, 17:36
+                        </span>
+                    </div>
+                    <div class="favourite-card__info-items">
+                        <div class="favourite-card__info-item">
+                            <img width="20" height="20" src="img/view.svg" alt="">
+                            <span class="text11 grey-text">
+                                23
+                            </span>
+                        </div>
+                        <div class="favourite-card__info-item">
+                            <img width="20" height="20" src="img/comment.svg" alt="">
+                            <span class="text11 grey-text">
+                                16
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="favourite-card__img-wrap">
+            <div class="favourite-card__img">
+                <picture>
+                    <source srcset="img/news2.webp" type="image/webp">
+                    <img width="180" height="135" src="img/news2.jpg" alt="">
+                </picture>
+            </div>
+        </div>
+        <div class="favourite-card__title">
+            <span class="display3 semi-bold-text accent2-text">
+                Рост цен на машины в 2022 году связан с чем-то очень важным, но никто не знает, с чем
+            </span>
+        </div>
+        <div class="reactions">
+            <div class="reactions__btn _like">
+                <svg width="20" height="20">
+                    <use xlink:href="img/sprite.svg#reaction"></use>
+                </svg>
+                <span class="reactions__btn-text text11 green-text">
+                    13
+                </span>
+            </div>
+            <div class="reactions__btn _unlike">
+                <svg width="20" height="20">
+                    <use xlink:href="img/sprite.svg#reaction2"></use>
+                </svg>
+                <span class="reactions__btn-text text11 red-text">
+                    8
+                </span>
+            </div>
+            <div class="reactions__btn _favourite">
+                <svg class="_view1" width="20" height="20">
+                    <use xlink:href="img/sprite.svg#reaction7"></use>
+                </svg>
+                <svg class="_view2" width="20" height="20">
+                    <use xlink:href="img/sprite.svg#reaction7"></use>
+                </svg>
+                <span class="reactions__btn-text text11 grey-text">
+                    8
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="favourite-card__right">
+
+    </div>
+</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="_tab-content _tab-subscribe">
+                                        <div class="subscribes">
+    <div class="subscribes__items">
+        <div class="subscribe-card">
+    <div class="subscribe-card__title">
+        <span class="display3 semi-bold-text">
+            Вабор и покупка авто
+        </span>
+    </div>
+    
+    <div class="subscribe-card__links">
+        <a href="#" class="subscribe-card__link link-text">
+            <span class="text17">Renault</span>
+        </a>
+        <a href="#" class="subscribe-card__link link-text">
+            <span class="text17">Duster</span>
+        </a>
+    </div>
+    
+    
+    <div class="subscribe-card__nav">
+        <a href="#" class="subscribe-card__cancel text14 light-grey-text">
+            Отписаться
+        </a>
+    </div>
+</div>
+
+        <div class="subscribe-card">
+    <div class="subscribe-card__title">
+        <span class="display3 semi-bold-text">
+            Ремонт и обслуживание
+        </span>
+    </div>
+    
+    <div class="subscribe-card__links">
+        <a href="#" class="subscribe-card__link link-text">
+            <span class="text17">Renault</span>
+        </a>
+        <a href="#" class="subscribe-card__link link-text">
+            <span class="text17">Duster</span>
+        </a>
+    </div>
+    
+    
+    <div class="subscribe-card__nav">
+        <a href="#" class="subscribe-card__cancel text14 light-grey-text">
+            Отписаться
+        </a>
+    </div>
+</div>
+
+        <div class="subscribe-card">
+    <div class="subscribe-card__title">
+        <span class="display3 semi-bold-text">
+            Автопутешествия и маршруты
+        </span>
+    </div>
+    
+    
+    <div class="subscribe-card__nav">
+        <a href="#" class="subscribe-card__cancel text14 light-grey-text">
+            Отписаться
+        </a>
+    </div>
+</div>
+
+        <div class="subscribe-card">
+    <div class="subscribe-card__title">
+        <span class="display3 semi-bold-text">
+            Константин Константиновский
+        </span>
+    </div>
+    
+    
+    <div class="subscribe-card__text grey-text">
+        <span class="text17">Статьи эксперта</span>
+    </div>
+    
+    <div class="subscribe-card__nav">
+        <a href="#" class="subscribe-card__cancel text14 light-grey-text">
+            Отписаться
+        </a>
+    </div>
+</div>
+
+    </div>
+    <div class="profile-comments__nav">
+        <a href="#" class="profile-comments__link accent-link">
+            Смотреть все подписки
+        </a>
+    </div>
+</div>
+
+<div class="send">
+    <div class="send__title">
+                                                <span class="text18">
+                                                    Куда присылать  письма:
+                                                </span>
+    </div>
+    <a href="mailto:nashpresident@kremlin.net" class="send__mail semi-bold-text link-text">
+                                                <span class="text18">
+                                                    nashpresident@kremlin.net
+                                                </span>
+    </a>
+    <div class="send__nav">
+        <a href="#" class="send__cancel text14 grey-text">
+            Изменить адрес
+        </a>
+    </div>
+</div>
+
+<div class="hints">
+    <div class="hint-card">
+    <div class="hint-card__title text18">
+        Подпишитесь на статьи эксперта
+    </div>
+    <div class="hint-card__nav">
+        <button class="hint-card__btn m-btn m-btn38 linear-btn">
+            <span>Эксперты</span>
+        </button>
+    </div>
+</div>
+
+    <div class="hint-card">
+    <div class="hint-card__title text18">
+        Подпишитесь на статьи из новой рубрики
+    </div>
+    <div class="hint-card__nav">
+        <button class="hint-card__btn m-btn m-btn38 linear-btn">
+            <span>Рубрики</span>
+        </button>
+    </div>
+</div>
+
+</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+    <div class="footer__inner">
+        <div class="footer__top">
+            <div class="footer__c">
+                <div class="text17 mob-text15 bold-text">
+                    © Ответ автоэксперта, 2022. Все права защищены. Информация, размещённая на данной странице, не является публичной офертой.
+                </div>
+            </div>
+            <a href="" class="footer__link m-btn">
+                <img src="img/settings.svg" alt="">
+                <span>Техническая поддержка</span>
+            </a>
+            <a href="" class="footer__link m-btn">
+                <img src="img/sticker.svg" alt="">
+                <span>Рекламодателям</span>
+            </a>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__links2">
+                <a href="" class="footer__link2">Пользовательское соглашение</a>
+                <a href="" class="footer__link2">Политика конфиденциальности</a>
+                <a href="" class="footer__link2">Разработка - WEBELEMENT</a>
+            </div>
+            <button class="footer__btn m-btn m-btn-light-gray">
+                <span class="text15">
+                    СЧЁТЧИК
+                </span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<button class="scroll-up m-btn">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_90_4145)">
+                <path d="M21.9999 0.290039C10.0221 0.290039 0.289734 10.0242 0.289734 22.0002C0.289734 33.9771 10.0239 43.7103 21.9999 43.7103C33.9768 43.7103 43.71 33.9762 43.71 22.0002C43.71 10.0233 33.9759 0.290039 21.9999 0.290039ZM21.9999 1.13168C33.501 1.13168 42.8685 10.4991 42.8685 22.0002C42.8685 33.5014 33.501 42.8688 21.9999 42.8688C10.4988 42.8688 1.13132 33.5014 1.13132 22.0002C1.13132 10.4991 10.4988 1.13168 21.9999 1.13168ZM22.0214 11.8514C21.9163 11.8514 21.8116 11.8896 21.7243 11.9766L15.4274 18.2736C15.2521 18.4489 15.2521 18.691 15.4274 18.8649L15.4379 18.8755C15.5692 19.0126 15.8325 19.0269 16.003 18.8564L16.208 18.6514H16.2104L21.5821 13.2772V31.7249C21.5821 31.9681 21.7656 32.1505 22.0101 32.1505C22.2546 32.1505 22.4357 31.9704 22.4357 31.7249V13.2877L28.0128 18.8648C28.1011 18.9531 28.2 18.9899 28.3156 18.9899C28.4312 18.9899 28.5253 18.9541 28.616 18.8648C28.7913 18.6895 28.7913 18.4474 28.616 18.2735L22.3191 11.9765C22.2321 11.8895 22.1271 11.8513 22.022 11.8513L22.0214 11.8514Z" fill="url(#paint0_linear_90_4145)"/>
+            </g>
+            <defs>
+                <linearGradient id="paint0_linear_90_4145" x1="8.9738" y1="-7.30852" x2="50.7108" y2="15.4771" gradientUnits="userSpaceOnUse">
+                    <stop class="stop1" stop-color="#D01162"/>
+                    <stop class="stop2"  offset="1" stop-color="#2039BD"/>
+                </linearGradient>
+                <clipPath id="clip0_90_4145">
+                    <rect width="44" height="44" fill="white"/>
+                </clipPath>
+            </defs>
+        </svg>
+</button>
+
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+
+</html>
